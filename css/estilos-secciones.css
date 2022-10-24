@@ -1,0 +1,109 @@
+/*ESTILOS SECCIONES*/
+.imagen-seccion {
+  width: 60%;
+  height: auto;
+  display: block;
+  align-self: center;
+  justify-self: center;
+  grid-area: imagen;
+  border: solid 5px black; }
+
+@media screen and (max-width: 1000px) {
+  .imagen-seccion {
+    width: 70%; } }
+
+.link-video-youtube {
+  color: green;
+  text-decoration: none; }
+  .link-video-youtube:hover {
+    color: darkgrey;
+    transition: all 0.3s; }
+
+/*HEADER*/
+.header-seccion {
+  background-color: black; }
+
+/*ESTILOS TRABAJOS DE AUTOR - FOTOPERIODISMO*/
+.carousel {
+  width: 90%;
+  border: solid 5px black;
+  align-self: center;
+  justify-self: center;
+  grid-area: imagen; }
+
+.carousel-reducido {
+  width: 76%; }
+
+.contenedor-carousel {
+  width: 90%;
+  background-color: black;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  grid-area: imagen; }
+
+@media screen and (max-width: 1000px) {
+  .carousel {
+    width: 100%; }
+  .carousel-reducido {
+    width: 81%; }
+  .contenedor-carousel {
+    width: 100%; } }
+
+.carousel-control-prev {
+  opacity: 1; }
+
+.carousel-control-next {
+  opacity: 1; }
+
+.carousel-control-prev-icon {
+  font-weight: 900; }
+
+.licencia {
+  text-decoration: none;
+  color: green; }
+  .licencia:hover {
+    color: darkgrey;
+    transition: all 0.3s; }
+
+/*ESTILOS CONTACTO*/
+.article-contacto {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: white;
+  font-family: 'Averta Regular', sans-serif;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  grid-template-areas: ". titulo ." ". texto ."; }
+
+ul.lista-contacto {
+  margin: 0;
+  padding: 0;
+  grid-area: texto;
+  align-self: center;
+  justify-self: center; }
+  ul.lista-contacto li {
+    margin: 20px 0px;
+    list-style-type: none;
+    text-align: center; }
+    ul.lista-contacto li a {
+      text-decoration: none;
+      color: white; }
+      ul.lista-contacto li a:hover {
+        color: darkgrey;
+        transition: all 0.3s; }
+
+.medio-contacto {
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+  font-display: block;
+  letter-spacing: 1px; }
+
+@media screen and (max-width: 576px) {
+  .medio-contacto {
+    font-size: 18px; } }
