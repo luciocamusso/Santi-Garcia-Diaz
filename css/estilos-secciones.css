@@ -67,6 +67,10 @@
     color: darkgrey;
     transition: all 0.3s; }
 
+/*ESTILOS SHOWS*/
+.text-img-show {
+  margin-bottom: 0; }
+
 /*ESTILOS CONTACTO*/
 .article-contacto {
   width: 100%;
