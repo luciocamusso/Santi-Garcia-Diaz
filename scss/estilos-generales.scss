@@ -5,14 +5,14 @@ $color-fondo-body: #0f0f0f;
 /*FUENTES*/
 @font-face {
     font-family: 'Bebas Neue';
-    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+    src: local(BebasNeue-Regular);
     font-weight: normal;
     font-size: normal;
     font-display: block;
 }
 @font-face {
     font-family: 'Averta Regular';
-    src: url(../fonts/Averta/AvertaDemoPE-Regular.otf);
+    src: local(AvertaDemoPE-Regular);
     font-weight: normal;
     font-size: normal;
 }
