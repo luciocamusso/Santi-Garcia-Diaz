@@ -8,6 +8,10 @@
   grid-area: imagen;
   border: solid 5px black; }
 
+.text-img {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1000px) {
   .imagen-seccion {
     width: 100%; } }
@@ -67,10 +71,6 @@
     color: darkgrey;
     transition: all 0.3s; }
 
-/*ESTILOS SHOWS*/
-.text-img-show {
-  margin-bottom: 0; }
-
 /*ESTILOS CONTACTO*/
 .article-contacto {
   width: 100%;
@@ -83,7 +83,8 @@
   grid-template-columns: 1fr 6fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 20px;
-  grid-template-areas: ". titulo ." ". texto ."; }
+  grid-template-areas: ". titulo ."
+ ". texto ."; }
 
 ul.lista-contacto {
   margin: 0;

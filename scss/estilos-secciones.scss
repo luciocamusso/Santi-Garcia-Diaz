@@ -14,6 +14,9 @@ $ancho-carousel-reducido: 76%;
     grid-area: imagen;
     border: solid 5px black;
 }
+.text-img {
+    margin-bottom: 0;
+}
 @media screen and (max-width: 1000px) {
     .imagen-seccion {
         width: 100%;
@@ -78,10 +81,6 @@ $ancho-carousel-reducido: 76%;
         color: darkgrey;
         transition: all 0.3s;
     }
-}
-/*ESTILOS SHOWS*/
-.text-img-show {
-    margin-bottom: 0;
 }
 
 /*ESTILOS CONTACTO*/
